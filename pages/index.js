@@ -10,7 +10,7 @@ export default function Home() {
   const router = useRouter()
   useEffect(() => {
     if(isMobile){
-      console.log("isMobile", isMobile)
+      console.log("router push", isMobile)
       //redirect somewhere
       router.push("https://youtube.com")
     }
